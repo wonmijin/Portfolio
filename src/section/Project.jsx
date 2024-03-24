@@ -16,11 +16,13 @@ const ProjectContainer = styled.section`
   width: 100%;
   height: 100%;
   color: white;
+  background-color: #87C6BC;
+  padding: 120px 0;
 
   h2 {
     color: #ffffff;
     font-size: 48px;
     text-align: center;
-    margin: 100px 0 64px 0;
+    margin-bottom: 64px;
   }
 `;

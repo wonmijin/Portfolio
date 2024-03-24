@@ -1,7 +1,7 @@
 import { About } from "./section/About";
 import { Contact } from "./section/Contact";
 import { Intro } from "./section/Intro";
-import { Header } from "./section/Header";
+import { Header } from "./components/Header";
 import { Project } from "./section/Project";
 import { Skill } from "./section/Skill";
 

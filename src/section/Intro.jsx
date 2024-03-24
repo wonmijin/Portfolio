@@ -29,6 +29,7 @@ const IntroContainer = styled.section`
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  background-color: #87C6BC;
 
   h1 {
     font-size: 72px;
