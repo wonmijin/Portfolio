@@ -27,81 +27,83 @@ export const Header = () => {
     }
 
     return(
-        <HeaderWrap show={show}>
-            <InnerWrap>
-                <Logo>
-                    <Link
-                        activeClass="active"
-                        to="introSection"
-                        spy={true}
-                        smooth={true}
-                        duration={400}
-                    >
-                        <img src={MyLogo} alt="로고이미지" />
-                    </Link>
-                </Logo>
-
-                <NavigationBar>
-                    <ul>
-                        <li>
-                            <Link
+        <>
+            <HeaderWrap show={show}>
+                <InnerWrap>
+                    <Logo>
+                        <Link
                             activeClass="active"
                             to="introSection"
                             spy={true}
                             smooth={true}
                             duration={400}
-                            >
-                            INTRO
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                            activeClass="active"
-                            to="aboutSection"
-                            spy={true}
-                            smooth={true}
-                            duration={400}
-                            >
-                            ABOUT
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                            activeClass="active"
-                            to="skillSection"
-                            spy={true}
-                            smooth={true}
-                            duration={400}
-                            >
-                            SKILLS
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                            activeClass="active"
-                            to="projectSection"
-                            spy={true}
-                            smooth={true}
-                            duration={400}
-                            >
-                            PROJECT
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                            activeClass="active"
-                            to="contactSection"
-                            spy={true}
-                            smooth={true}
-                            duration={400}
-                            >
-                            CONTACT
-                            </Link>
-                        </li>
-                    </ul>
-                </NavigationBar>
-            </InnerWrap>
-        </HeaderWrap>
+                        >
+                            <img src={MyLogo} alt="로고이미지" />
+                        </Link>
+                    </Logo>
+
+                    <Navigation>
+                        <ul>
+                            <li>
+                                <Link
+                                activeClass="active"
+                                to="introSection"
+                                spy={true}
+                                smooth={true}
+                                duration={400}
+                                >
+                                INTRO
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                activeClass="active"
+                                to="aboutSection"
+                                spy={true}
+                                smooth={true}
+                                duration={400}
+                                >
+                                ABOUT
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                activeClass="active"
+                                to="skillSection"
+                                spy={true}
+                                smooth={true}
+                                duration={400}
+                                >
+                                SKILLS
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                activeClass="active"
+                                to="projectSection"
+                                spy={true}
+                                smooth={true}
+                                duration={400}
+                                >
+                                PROJECT
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                activeClass="active"
+                                to="contactSection"
+                                spy={true}
+                                smooth={true}
+                                duration={400}
+                                >
+                                CONTACT
+                                </Link>
+                            </li>
+                        </ul>
+                    </Navigation>
+                </InnerWrap>
+            </HeaderWrap>
+        </>
     );
 };
 
@@ -131,7 +133,7 @@ const Logo = styled.h1`
         width: 45px;
     }
 `
-const NavigationBar = styled.nav`
+const Navigation = styled.nav`
     ul {
         display: flex;
         justify-content: flex-end;

@@ -3,7 +3,6 @@ body {
   font-family: "Noto Sans KR", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  width: 100%;
   background: #87C6BC;
 
   -ms-overflow-style: none; /* 인터넷 익스플로러 */
