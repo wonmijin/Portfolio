@@ -125,6 +125,13 @@ const InnerWrap = styled.div`
     justify-content: space-between;
     align-items: center;
     margin: auto;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        margin: 0;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
 `
 const Logo = styled.h1`
     cursor: pointer;

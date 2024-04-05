@@ -45,6 +45,10 @@ const ContactContainer = styled.section`
   background-color: #FFF4E4;
   padding: 30px 0 200px 0;
 
+  @media (max-width: 768px) {
+    padding: 30px 0 150px 0;
+  }
+
   h2 {
     color: #1d1d1d;
     font-size: 48px;
@@ -60,6 +64,7 @@ const ContactContainer = styled.section`
     justify-content: center;
 
     @media (max-width: 768px) {
+      width: 80%;
       height: auto;
       flex-direction: column;
       gap: 6px;

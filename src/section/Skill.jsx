@@ -67,11 +67,7 @@ const AlignBox = styled.div`
   margin: 0 auto;
   padding-bottom: 64px;
 
-  & > div {
-    @media (max-width: 938px) {
-      margin: 12px;
-    }
-  }
+  
 
   img {
     width: 80px;
@@ -90,6 +86,14 @@ const AlignBox = styled.div`
     margin: 48px 0 16px 0;
     padding: 0 14px;
   }
+
+  @media (max-width: 768px) {
+    .buttonWrap {
+      width: 80%;
+      padding: 0;
+      margin: 48px auto 16px;
+    }
+  }
 `;
 
 const Images = styled.div`
@@ -97,9 +101,14 @@ const Images = styled.div`
   width: 100%;
   flex-wrap: wrap;
   padding: 0 4px;
+  box-sizing: border-box;
 
   @media (max-width: 768px) {
     justify-content: center;
+
+    .tooltiptext {
+      display: none;
+    }
   }
 
   &::-webkit-scrollbar {
