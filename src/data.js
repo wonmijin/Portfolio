@@ -85,29 +85,7 @@ export const skillImages = [
 // WORKS
 export const projects = [
   
-  {
-    id: 3,
-    images: [
-      'kt_01.png', 
-      'kt_02.png', 
-      'kt_03.png', 
-      'kt_04.png',
-      'kt_05.png',
-    ],
-    title: "KT A'cen Cloud",
-    participation: 'KT 프로젝트 참여',
-    mainContent: `KT A'cen Cloud에서 퍼블리셔로 참여한 프로젝트는 회원과 관리자 페이지를 구분하여 제작되었습니다.
-    Vue 환경에서 구현된 이 프로젝트에서는 전반적인 페이지 구현을 담당했습니다.
-    회원 페이지에서는 주로 신청 페이지를 구현하는 데 주력했으며, 관리자 페이지는 상담사들이 사용하는 페이지를 주로 주력했습니다.
-    이 프로젝트는 저의 첫 경험이었기 때문에 어려움이 있었지만, 디자인팀, 개발팀 간에 원활한 커뮤니케이션을 통해 어려움을 극복했습니다.
-    이 경험을 통해 프로젝트 전체적인 흐름을 이해하고, 팀원들과의 협업을 통해 문제를 해결하는 능력을 키웠습니다. 
-    또한, Vue 환경에서 프로젝트가 진행되었기에 Vue 환경을 경험할 수 있었습니다.
-    이러한 경험은 제가 앞으로의 프로젝트에서 더 나은 결과물을 만들 수 있도록 할 것입니다.
-    `,
-    tools: ['Vue', 'Axios', 'Sass'],
-
-    site: 'https://acencloud.kt-aicc.com/main/serviceInfo',
-  },
+  
 
   {
     id: 2,

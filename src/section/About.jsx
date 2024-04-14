@@ -42,13 +42,10 @@ export const About = () => {
             className={`profileText ${produceRefState ? "from-left-animation" : ""}`}
           >
             <div className="top">
-              <h3>도전과 배움을 즐기는<br />주니어 프론트엔드 개발자 '원미진'입니다.</h3>
+              <h3>도전과 배움을 즐기는<br />프론트엔드 개발자 '원미진'입니다.</h3>
               <p>
-                저는 UI/UX와 개발에 큰 관심과 흥미를 가지고 있어 퍼블리셔로서의 근무경험이 있으며, <br />
-                배운 기술들을 익혀 화면에 구현해 나가는 과정을 즐겨 주니어 프론트엔드 개발자가 되었습니다. <br />
-                새로운 시도와 배우는 것을 두려워 하지 않고, 끊임없이 도전하여 성장하기 위해
-                노력합니다.
-                <br />
+                계속 발전하는 Framework처럼 발전 가능성이 풍부한 프론트엔드 개발자 원미진입니다.<br />
+                항상 새로운 도전, 열정과 의지를 바탕으로 개발자로서 지속적인 성장을 이루어내겠습니다.<br />
                 함께 성장하고 발전하는 여정을 함께 할 수 있는 곳을 찾습니다.
               </p>
             </div>
@@ -76,17 +73,11 @@ export const About = () => {
                   <h3>Education</h3>
                   <div className="textInBox">
                     <div className="text">
-                      <p>2014 - 2018</p>
-                      <p>2018 - 2020</p>
                       <p>2020 - 2021</p>
-                      <p>2022 - 2023</p>
                       <p>2023 - 2024</p>
                     </div>
                     <div className="text">
-                      <p>청운대학교 관광경영학과 졸업</p>
-                      <p>타이드스퀘어 근무</p>
                       <p>SBS 아카데미 퍼블리셔 과정 수료</p>
-                      <p>디아이커뮤니케이션즈 근무</p>
                       <p>제로베이스 프론트엔드개발자 과정 수료</p>
                     </div>
                   </div>
@@ -97,22 +88,25 @@ export const About = () => {
                   <h3>License</h3>
                   <div className="textInBox">
                     <div className="text">
-                      <p>2016.10</p>
-                      <p>2016.12</p>
-                      <p>2017.04</p>
-                      <p>2017.06</p>
                       <p>2021.05</p>
                       <p>2021.07</p>
                       <p>2021.09</p>
                     </div>
                     <div className="text">
-                      <p>Mos PowerPoint 취득</p>
-                      <p>Mos Excel 취득</p>
-                      <p>Mos Word 취득</p>
-                      <p>Mos Outlook 취득</p>
                       <p>GTQ 일러스트 1급 취득</p>
                       <p>GTQ 그래픽기술자격 1급 취득</p>
                       <p>웹디자인기능사 취득</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="textBox"> 
+                  <h3>Career</h3>
+                  <div className="textInBox">
+                    <div className="text">
+                      <p>2022.03 - 2023.03</p>
+                    </div>
+                    <div className="text">
+                      <p>디아이커뮤니케이션즈 개발팀 퍼블리셔 근무</p>
                     </div>
                   </div>
                 </div>
