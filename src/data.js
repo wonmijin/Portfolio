@@ -88,7 +88,7 @@ export const projects = [
   
 
   {
-    id: 3,
+    id: 4,
     images: [
       'foodmate_01.jpg',
       'foodmate_02.jpg',
@@ -107,7 +107,7 @@ export const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     images: [
       'disney_01.png',
       'disney_02.png',
@@ -131,7 +131,7 @@ export const projects = [
   },
 
   {
-    id: 1,
+    id: 2,
     images: [
       'movie_01.png', 
       'movie_02.png', 
@@ -152,6 +152,22 @@ export const projects = [
     tools: ['TypeScript', 'Parcel', 'Vercel', '반응형'],
     site: 'https://movie-ten-iota.vercel.app/#/',
     gitURL: 'https://github.com/wonmijin/MOVIE',
+  },
+
+  {
+    id: 1,
+    images: [
+      'pokemon_01.png', 
+      'pokemon_02.png',
+    ],
+    title: 'Pokemon 도감',
+    participation: '개인 프로젝트',
+    mainContent: `이 프로젝트는 TypeScript와 API fetch를 학습하기 위해 만든 포켓몬 도감 사이트입니다. Poke API를 통해 포켓몬 정보를 가져오며, 각 포켓몬 도감을 클릭하면 해당 포켓몬의 상세 페이지로 이동하여 상세 정보와 능력치를 확인할 수 있습니다. 포켓몬은 속성에 맞게 색상이 부여되며, 세 가지 타입의 이미지를 볼 수 있습니다.
+    
+    이 프로젝트는 TypeScript로 만든 첫 번째 프로젝트로, 기초적인 기능을 간단하게 구현하는 것에 중점을 두었습니다. 현재는 기본적인 기능만 제공하고 있지만, Poke API를 활용하여 더욱 흥미로운 프로젝트로 발전시킬 수 있을 것 같습니다. 예를 들어, 검색 기능과 속성에 따른 포켓몬 필터링 기능을 추가하여 사용자 경험을 향상시킬 계획입니다. 이러한 기능들을 추가하여 새로운 프로젝트로 확장해보고 싶습니다.`,
+    tools: ['TypeScript', 'React', 'Vercel', 'Styled-Components', 'Axios', 'Redux'],
+    site: 'https://pokemon-weld-pi.vercel.app/',
+    gitURL: 'https://github.com/wonmijin/Pokemon',
   },
 
   {
